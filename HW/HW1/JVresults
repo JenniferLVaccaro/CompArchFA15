@@ -1,0 +1,470 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+cd C:/CA15/HW1
+vlib work
+vmap work work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+do hw_1.do
+# Cannot open macro file: hw_1.do
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# ** Error (suppressible): (vlog-1902) Option "-reportproogress" is either unknown, requires an argument, or was given with a bad argument.
+# 
+# Use the -help option for complete vlog usage.
+# End time: 16:31:50 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportproogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:32:34 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# ** Error: (vlog-7) Failed to open design unit file "hw1.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 16:32:35 on Sep 16,2015, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:49 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 16:33:49 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 16:33:50 on Sep 16,2015
+# Loading work.hw1test
+# Hello, CompArch!
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:42:25 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(9): Gates must have at least 1 input
+# ** Error: (vlog-13069) hw1.v(17): near "%": syntax error, unexpected '%', expecting ')' or ','.
+# 
+# ** Warning: hw1.v(17): (vlog-2643) Unterminated string literal continues onto next line.
+# 
+# ** Error: (vlog-13069) hw1.v(21): near "%": syntax error, unexpected '%', expecting ')' or ','.
+# 
+# ** Warning: hw1.v(21): (vlog-2643) Unterminated string literal continues onto next line.
+# 
+# End time: 16:42:25 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:45:00 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(9): Gates must have at least 1 input
+# End time: 16:45:00 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:46:32 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(9): Gates must have at least 1 input
+# End time: 16:46:32 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:47:06 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 16:47:06 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 16:47:07 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B 
+# 0 0 |  1 1 |    1 
+# 0 1 |  1 0 |    0 
+# 1 0 |  0 1 |    0 
+# 1 1 |  0 0 |    0 
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:16:45 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(11): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(12): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:16:45 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:18:58 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(11): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(12): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:18:58 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:19:23 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(11): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(12): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:19:23 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:20:03 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(11): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(12): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:20:03 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:21:07 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(11): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(12): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:21:07 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:24:07 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error (suppressible): hw1.v(4): (vlog-2388) 'A' already declared in this scope (hw1test).
+# 
+# ** Error (suppressible): hw1.v(5): (vlog-2388) 'B' already declared in this scope (hw1test).
+# 
+# ** Error: hw1.v(13): andgate already declared in this scope
+# End time: 21:24:07 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:26:40 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:26:40 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:26:41 on Sep 16,2015
+# Loading work.hw1test
+# ** Error: (vsim-3043) hw1.v(20): Unresolved reference to 'nAandB'.
+#    Time: 0 ns  Iteration: 0  Instance: /hw1test File: hw1.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./hw1.do PAUSED at line 2
+do hw_1.do
+# Cannot open macro file: hw_1.do
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:27:55 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(13): andgate already declared in this scope
+# End time: 21:27:55 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:28:16 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(13): andgate already declared in this scope
+# End time: 21:28:16 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:28:49 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:28:49 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B | ~(AB) 
+# 0 0 |  1 1 |    1 |    z
+# 0 1 |  1 0 |    0 |    z
+# 1 0 |  0 1 |    0 |    z
+# 1 1 |  0 0 |    0 |    z
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:29:14 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(13): andgate already declared in this scope
+# End time: 21:29:15 on Sep 16,2015, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:30:05 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:30:05 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:30:06 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B | ~(AB) 
+# 0 0 |  1 1 |    1 |    z
+# 0 1 |  1 0 |    0 |    z
+# 1 0 |  0 1 |    0 |    z
+# 1 1 |  0 0 |    0 |    z
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:30:18 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# ** Error: hw1.v(14): andgate already declared in this scope
+# End time: 21:30:18 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./hw1.do line 1
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work hw1.v"
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:32:12 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:32:12 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:32:13 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B | ~(AB) 
+# 0 0 |  1 1 |    1 |    z
+# 0 1 |  1 0 |    0 |    z
+# 1 0 |  0 1 |    0 |    z
+# 1 1 |  0 0 |    0 |    z
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:34:33 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:34:33 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:34:34 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1 1 |  1  1  |   1  1
+# 0 1 |  1 0 |  0  1  |   1  1
+# 1 0 |  0 1 |  0  1  |   1  1
+# 1 1 |  0 0 |  0  0  |   0  0
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:35:35 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:35:35 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:35:36 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1  1  |   1  1  |   1  1
+# 0 1 |  1  0  |   0  1  |   1  1
+# 1 0 |  0  1  |   0  1  |   1  1
+# 1 1 |  0  0  |   0  0  |   0  0
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:36:13 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:36:13 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:36:15 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1  1  |   1  1  |   1  1
+# 0 1 |  1  0  |   0  0  |   1  1
+# 1 0 |  0  1  |   0  0  |   1  1
+# 1 1 |  0  0  |   0  0  |   0  0
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:37:33 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:37:33 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:37:34 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B  | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1  1  |   1    1  |   1   1
+# 0 1 |  1  0  |   0    0  |   1   1
+# 1 0 |  0  1  |   0    0  |   1   1
+# 1 1 |  0  0  |   0    0  |   0   0
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:38:10 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:38:10 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:38:11 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B  | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1  1  |   1    1   |   1    1
+# 0 1 |  1  0  |   0    0   |   1    1
+# 1 0 |  0  1  |   0    0   |   1    1
+# 1 1 |  0  0  |   0    0   |   0    0
+do hw1.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:38:45 on Sep 16,2015
+# vlog -reportprogress 300 -work work hw1.v 
+# -- Compiling module hw1test
+# 
+# Top level modules:
+# 	hw1test
+# End time: 21:38:45 on Sep 16,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:38:46 on Sep 16,2015
+# Loading work.hw1test
+# A B | ~A ~B  | ~A~B  ~(A+B)| ~(AB) ~A+~B
+# 0 0 |  1  1  |   1     1   |   1    1
+# 0 1 |  1  0  |   0     0   |   1    1
+# 1 0 |  0  1  |   0     0   |   1    1
+# 1 1 |  0  0  |   0     0   |   0    0
