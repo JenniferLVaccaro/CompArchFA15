@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/CA15/CompArchFA15/HW/HW2
 vbehavioralDecoder
-Z1 !s110 1443210850
+Z1 !s110 1443667203
 !i10b 1
 !s100 8alK<5@I3331XIEV3o]Ya3
 I>nX^aUGLPHNEoO:9k74Ec2
@@ -23,7 +23,7 @@ Z6 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z7 !s108 1443210849.000000
+Z7 !s108 1443667203.000000
 Z8 !s107 adder.v|decoder.v|multiplexer.v|
 Z9 !s90 -reportprogress|300|-work|work|multiplexer.v|decoder.v|adder.v|
 !s101 -O0
@@ -163,7 +163,7 @@ R9
 R10
 ntest@decoder
 vtestFullAdder
-R1
+!s110 1443667204
 !i10b 1
 !s100 b0f:k>M3me=IF:KnD[_9m3
 I=DPTKm9cUOX8IK7<NAMn61
