@@ -1,0 +1,44 @@
+do lab0.do
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:26:31 on Sep 26,2015
+# vlog -reportprogress 300 -work work adder.v 
+# -- Compiling module FullAdder
+# -- Compiling module FullAdder4bit
+# -- Compiling module testFullAdder4bit
+# 
+# Top level modules:
+# 	testFullAdder4bit
+# End time: 19:26:31 on Sep 26,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:26:32 on Sep 26,2015
+# Loading work.testFullAdder4bit
+# Loading work.FullAdder4bit
+# Loading work.FullAdder
+# ** Warning: (vsim-3015) adder.v(39): [PCDPC] - Port size (1) does not match connection size (32) for port 'carryin'. The port definition is at: adder.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testFullAdder4bit/adder/addbit0 File: adder.v
+# FullAdder4bit
+# a  | b  || sum | carryout | overflow || expected
+# Zero identities: no overflow
+#  0000 0000 || 0000 0 0 || 0000 0 0
+#  0000 0001 || 0001 0 0 || 0001 0 0
+#  0000 1111 || 1111 0 0 || 1111 0 0
+# Pos+Pos
+#  0100 0011 || 0111 0 0 || 0111 0 0
+#  0111 0111 || 1110 0 1 || 1110 0 1
+#  0101 0001 || 0110 0 0 || 0110 0 0
+# Pos+Neg: No overflow
+#  0101 1111 || 0100 1 0 || 0100 1 0
+#  1101 0001 || 1110 0 0 || 1110 0 0
+#  0011 1101 || 0000 1 0 || 0000 1 0
+# Neg+Neg
+#  1111 1111 || 1110 1 0 || 1110 1 0
+#  1000 1000 || 0000 1 1 || 0000 1 1
+#  1100 1101 || 1001 1 0 || 1001 1 0
+#  1101 1011 || 1000 1 0 || 1000 1 0
+# Overflow
+#  0101 0111 || 1100 0 1 || 1100 0 1
+#  1000 1111 || 0111 1 1 || 0111 1 1
+#  1001 1010 || 0011 1 1 || 0011 1 1
+# 0 ns
+# 16800 ns

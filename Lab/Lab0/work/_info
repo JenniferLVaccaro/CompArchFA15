@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/CA15/CompArchFA15/Lab/Lab0
+vFullAdder
+Z1 !s110 1443309991
+!i10b 1
+!s100 <8Gc]jInH6o;XdncE2iVO2
+I7DFYFF@_5Bbj37=0K^_c_3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1443309987
+Z4 8adder.v
+Z5 Fadder.v
+L0 2
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1443309991.000000
+Z8 !s107 adder.v|
+Z9 !s90 -reportprogress|300|-work|work|adder.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@full@adder
+vFullAdder4bit
+R1
+!i10b 1
+!s100 fem?=>XVh]RY43AE9>5FQ0
+I=K1cKLTc>d`fFa^X7`>=22
+R2
+R0
+R3
+R4
+R5
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@full@adder4bit
+vtestFullAdder4bit
+R1
+!i10b 1
+!s100 7PgOM:1;?f:cagz<;[kCR2
+IVZ702=]6M3iDB9FDdfo=:3
+R2
+R0
+R3
+R4
+R5
+L0 51
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+ntest@full@adder4bit
