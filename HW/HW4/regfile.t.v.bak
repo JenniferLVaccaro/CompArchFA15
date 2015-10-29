@@ -135,7 +135,7 @@ output reg		Clk
 
   if((ReadData1 != 15) || (ReadData2 != 15)) begin
     dutpassed = 0;
-    $display("Test Case 2 Failed");
+    $display("Test Case 2 Failed %h %h", ReadData1, ReadData2);
   end
 
   // Test Case 3:
