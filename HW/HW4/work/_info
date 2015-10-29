@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/CA15/CompArchFA15/HW/HW4
+vdecoder1to32
+Z1 !s110 1446087066
+!i10b 1
+!s100 ?BWAgg[>dH6`Y>KNCjz0j2
+IW8AJTX:Kbj_b<mGoTX4?X3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1446085680
+Z4 8register.v
+Z5 Fregister.v
+L0 104
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1446087065.000000
+Z8 !s107 register.v|regfile.v|regfile.t.v|
+Z9 !s90 -reportprogress|300|-work|work|regfile.t.v|regfile.v|register.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vhw4testbench
+R1
+!i10b 1
+!s100 [3]4KEciB_CG6LW2=5B<j0
+IbkkCb6_97j6Hgi;FLl4A^3
+R2
+R0
+Z11 w1446084869
+Z12 8regfile.t.v
+Z13 Fregfile.t.v
+L0 76
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vhw4testbenchharness
+R1
+!i10b 1
+!s100 Uogaegd8oOUcGjF:zE_7[2
+IRnC30mzak2C;UK8h4V2CT0
+R2
+R0
+R11
+R12
+R13
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vmux32to1by1
+R1
+!i10b 1
+!s100 9FYOzIFhaU``4G0Ga4WbX2
+IAlWT9Z<FYYc7]Gzkh6Uoa2
+R2
+R0
+R3
+R4
+R5
+L0 52
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vmux32to1by32
+R1
+!i10b 1
+!s100 f`V:Q^mm9SfFJJGEEZ<B<0
+IICko:>N@5oWM4ezjgX:Ha3
+R2
+R0
+R3
+R4
+R5
+L0 61
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vregfile
+R1
+!i10b 1
+!s100 6ODTlnVFl3onK;>>geINX3
+I>3:MD0ie[EcWX[>UUNQPZ0
+R2
+R0
+w1446087058
+8regfile.v
+Fregfile.v
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vregister
+R1
+!i10b 1
+!s100 MB;lTAg;DEemMB9YX07Cz2
+Ibco`dKW?^B5@9:OVk^:f32
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vregister32
+R1
+!i10b 1
+!s100 Bo15oYmh;MAG2lHjEko8k0
+IJm8g>j0PJ;S[:j`jNb>3a2
+R2
+R0
+R3
+R4
+R5
+L0 19
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vregister32zero
+R1
+!i10b 1
+!s100 b[2jOAYDi9AhAjHG:@SZ71
+ISQUJ0MHdZdAVJjmT6XGQk0
+R2
+R0
+R3
+R4
+R5
+L0 36
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10

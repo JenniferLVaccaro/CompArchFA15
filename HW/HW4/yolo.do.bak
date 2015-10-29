@@ -1,0 +1,2 @@
+vlog -reportprogress 300 -work work register.t.v
+vsim -voptargs="+acc" register32

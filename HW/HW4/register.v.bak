@@ -44,7 +44,7 @@ input		clk
 );
     always @(posedge clk) begin
         if(wrenable) begin
-            Q=32'd0;
+            Q=0;
         end
     end
 endmodule

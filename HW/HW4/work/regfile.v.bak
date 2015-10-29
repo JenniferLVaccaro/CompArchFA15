@@ -17,8 +17,8 @@ input[4:0]	WriteRegister,	// Address of register to write
 input		RegWrite,	// Enable writing of register when High
 input		Clk		// Clock (Positive Edge Triggered)
 );
-wire [31:0] input0, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31;
-wire[31:0] WRITE =32'd0;
+reg [31:0] input0, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31;
+wire[31:0] WRITE=32'd0;
   // These two lines are clearly wrong.  They are included to showcase how the 
   // test harness works. Delete them after you understand the testing process, 
   // and replace them with your actual code.
